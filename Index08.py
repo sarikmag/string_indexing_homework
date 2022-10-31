@@ -6,5 +6,6 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    return s.find("*")
+print(main("2*44"))
         

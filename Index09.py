@@ -6,4 +6,9 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    
+    if s.isalpha():
+        return True
+    return False
+
+print(main("w"))

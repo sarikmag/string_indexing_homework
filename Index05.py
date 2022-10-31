@@ -6,4 +6,7 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    import string
+    string.digits
+    return string.digits
+print(main("s32x1"))

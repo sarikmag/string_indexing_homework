@@ -6,4 +6,15 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    z=s[0]
+    z=int(z)
+    x=s[1]
+    x=int(x)
+    c=s[2]
+    c=int(c)
+    v=s[3]
+    v=int(v)
+    b=s[4]
+    b=int(b)
+    return int(z)+int(x)+int(c)+int(v)+int(b)
+print(main("10002"))
