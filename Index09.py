@@ -8,7 +8,7 @@ def main(s):
     """
     
     if s.isalpha():
-        return True
-    return False
+        return -1
+    return s
 
-print(main("w"))
+print(main("y"))

@@ -6,6 +6,8 @@ def main(s):
     Returns:
         int: answer
     """
-    return s.find("*")
-print(main("2*44"))
+    if s.find("*")>0:
+        return s.find("*")
+    return False
+print(main("wde*4e"))
         
