@@ -9,4 +9,4 @@ def main(s,n):
     if len(s)>n:
         return s[n]
     return False
-print(main("uz",4))
+print(main("giyght",3))
